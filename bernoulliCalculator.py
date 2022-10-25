@@ -17,6 +17,7 @@ p = camber/100
 CLA = (2*math.pi)/(1 + (2/AR))  # coefficients...
 CLZ = math.pi * (4*p - 2 + math.sqrt(16 * (p**2) + 4))
 CL = (a * CLA) + CLZ
+# must assume constant viscosity & thin aerofoil
 
 dynamicPressure = 0.5*density*(velocity**2)
 lift = round(CL * dynamicPressure * area)
