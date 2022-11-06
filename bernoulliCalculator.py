@@ -21,6 +21,7 @@ CL = (a * CLA) + CLZ
 
 dynamicPressure = 0.5*density*(velocity**2)
 lift = round(CL * dynamicPressure * area)
+print(CL*area*0.5*density)
 
 print(("The plane has " + str(lift) + "N of lift. This gives "
        + str(round(lift-weight)) + "N of upward force.").strip())
