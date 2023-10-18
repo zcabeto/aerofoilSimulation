@@ -8,3 +8,5 @@ These equations only find the low magnitude attack angle coefficients as it does
 
             CL gradient descent - now utilising poetry
 I have written a short piece of code to accept experimental data from NACA aerofoils as max thickness & chord, max camber & chord, and angle. The code then computes gradient descent on the coefficients of each variable over a certain specified number of iterations. The coefficients attached to their relevant variables, with a bias coefficient, collectively derive an equation for the coefficient of lift (pre-stall). Simply for testing purposes, only a few aerofoil's data have been used, but the excel spreadsheet of the values will continue to be expanded. Next task is to do the same testing to derive the stall point based upon the same set of data.
+
+This project is on hold while I learn and understand ML processes better.
